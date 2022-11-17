@@ -31,7 +31,7 @@ function App() {
         })
     }, [])
     React.useEffect(() => {
-        // getData(latitude, longitude)
+        getData(latitude, longitude)
         console.log(currentInfo)
     }, [longitude, isWeatherLoaded])
 
